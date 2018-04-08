@@ -82,11 +82,11 @@ class Owner
        end
 
          self.pets[:cats].each do |cat|
-            cat.mood = "happy"
+            cat.mood = "nervous"
           end
 
             self.pets[:dogs].each do |dogs|
-               dogs.mood = "happy"
+               dogs.mood = "nervous"
              end
   end
 
