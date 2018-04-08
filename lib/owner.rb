@@ -77,17 +77,7 @@ class Owner
       pets.clear
     end
 
-      self.pets[:fishes].each do |fish|
-         fish.mood = "nervous"
-       end
-
-         self.pets[:cats].each do |cat|
-            cat.mood = "nervous"
-          end
-
-            self.pets[:dogs].each do |dogs|
-               dogs.mood = "nervous"
-             end
+    
   end
 
 end
