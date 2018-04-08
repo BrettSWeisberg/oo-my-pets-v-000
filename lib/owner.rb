@@ -73,11 +73,12 @@ class Owner
  end
 
   def sell_pets
+    binding.pry
     self.pets.each do |category, pet |
       pets.clear
     end
 
-    
+
   end
 
 end
